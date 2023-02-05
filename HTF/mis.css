@@ -1,0 +1,271 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(0,0,0,0.87);
+    color: white;
+}
+
+
+    /* Navbar */
+
+.header{
+    background-color: rgba(0, 0, 0, 0.096);
+    box-shadow: 0 0 2px grey;
+    
+    top: 0%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    margin: auto;
+}
+
+.navbar img{ 
+ width: 70px;
+}
+
+.search_box{
+    display: flex;
+    margin-left: 30px;
+}
+.search_box i {
+    background-color: black;
+    color: white;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    /* margin-left: -35px; */
+}
+.searchclass {
+    padding: 10px;
+    width: 400px;
+    font-size: 15px;
+    border: 2px solid rgb(235, 17, 17);
+    border-radius: 6px 0 0 6px;
+}
+
+
+
+.messeage img{
+    font-size: 22px;
+    color: rgb(235, 17, 17);
+    cursor: pointer;
+    margin-left: 270px;
+    width: 60px;
+    height: 55px;
+}
+
+/* .dp img{
+    width: 55px;
+    border-radius: 200%;
+    cursor: pointer;
+}
+.nameandimg img{
+    width: 65px;
+    border-radius: 50%;
+}
+.nameandimg p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.nameandimg{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px 0;
+} */
+.logo{
+    width: 60px;
+    height: 60px;
+    
+}
+
+
+
+.selling_page button {
+    margin-left: -386px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+
+.selling_page  {
+    margin-left: 400px;
+    
+}
+
+
+                        /* Product */
+.product_img{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.image_discription{
+    width: 800px;
+}
+.image_discription img{
+    width: 800px;
+    border-radius: 5px;
+}
+
+
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    
+    transition-property: transform;
+}
+
+
+
+
+.product_details{
+    width: 400px;
+    margin-left: 10px;
+    position: sticky;
+}
+
+
+
+
+.box {
+    background-color: rgba(0, 0, 0, 0.87);
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 5px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.price p{
+  font-size: 25px;
+  font-weight: normal;
+  float: left;
+  margin-right: 10px;
+  padding: 10px 0 10px 10px;
+  cursor: pointer;
+}
+.box span{
+    color: #757674;
+    padding: 0 0 10px 10px;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    padding: 15px 10px 15px 10px ;
+}
+
+
+
+
+
+.seller_detail img{
+    width: 55px;
+    border-radius: 50%;
+    margin: 10px 10px 8px 10px ;
+}
+.seller_detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.Seller_description{
+    font-size: 17px;
+   color:  #212f34;
+   padding: 10px 0 5px 10px;
+}
+.seller_detail h2{
+    font-size: 18px;
+}
+.seller_detail p{
+    font-size: 13px;
+}
+.box a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 125px;
+    border: 2px solid black;
+    margin: 10px;
+    transition: all 0.3s;
+    background-color: #9d65c9;
+    border-radius: 20px;
+}
+.box a:hover{
+    border:  2px solid rgb(235, 17, 17);
+}
+#box2{
+    height: 170px;
+    margin-top: 10px
+}
+
+
+.download_app{
+    background-color: #f7f8f9;
+}
+.download{
+    margin: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imges{
+    width: 400px;
+}
+.text{
+    border-right: 2px solid #cacdce;
+}
+.text h1{
+    padding: 20px 20px 10px 20px ;
+    font-size: 35px;
+}
+.text p{
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+}
+.download_store p {
+    padding: 20px 20px 20px 0;
+    font-weight: bold;
+    font-size: 17px;
+    width: 600px;
+    text-align: center;
+}
+.download_store{
+    padding-left: 30px;
+}
+.download_store img{
+  width: 140px;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+
+
+
+                /* Downicnos */
+.icons{
+    margin: 1px;
+}
+
+.icons img{
+    padding: 2px;
+    width: 30px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}

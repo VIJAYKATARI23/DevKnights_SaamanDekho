@@ -1,0 +1,203 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(0,0,0,0.87);
+    color: white;
+}
+
+
+    /* Navbar */
+
+.header{
+    background-color: rgba(0, 0, 0, 0.096);
+    box-shadow: 0 0 2px grey;
+    position: sticky;
+    top: 0%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    margin: auto;
+}
+
+.navbar img{ 
+ width: 70px;
+}
+
+.search_box{
+    display: flex;
+    margin-left: 30px;
+}
+.search_box i {
+    background-color: black;
+    color: white;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    /* margin-left: -35px; */
+}
+.searchclass {
+    padding: 10px;
+    width: 400px;
+    font-size: 15px;
+    border: 2px solid rgb(235, 17, 17);
+    border-radius: 6px 0 0 6px;
+}
+
+
+
+.messeage img{
+    font-size: 22px;
+    color: rgb(235, 17, 17);
+    cursor: pointer;
+    margin-left: 270px;
+    width: 60px;
+    height: 55px;
+}
+
+.dp img{
+    width: 55px;
+    border-radius: 200%;
+    cursor: pointer;
+}
+.nameandimg img{
+    width: 65px;
+    border-radius: 50%;
+}
+.nameandimg p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.nameandimg{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px 0;
+}
+
+
+
+.selling_page button {
+    margin-left: -386px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+
+.selling_page  {
+    margin-left: 400px;
+    
+}
+
+                            /* Products */
+.First_row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+}
+.box img {
+    width: 257px;
+    border-radius: 26px;
+    height: 228px;
+}
+.box{
+    border: 2px solid rgb(197, 196, 196);
+    width: 259px;
+    height: 312px;
+    border-radius: 26px;
+    cursor: pointer;
+}
+.box:hover{
+    border: 3px solid rgb(104, 4, 17);
+}
+.box a{
+    text-decoration: none;
+    color: rgb(0,0,0,0.87);
+}
+.box h2{
+    padding: 5px 0 0 20px;
+}
+.box p{
+    padding: 0 0 10px 20px ;
+    color: #6f8a94;
+    font-size: 14px;
+}
+.address {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.address p{
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+
+
+
+/* download */
+
+
+.download_app{
+    background-color: #f7f8f9;
+}
+.download{
+    margin: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imges{
+    width: 400px;
+}
+.text{
+    border-right: 2px solid #cacdce;
+}
+.text h1{
+    padding: 20px 20px 10px 20px ;
+    font-size: 35px;
+}
+.text p{
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+}
+.download_store p {
+    padding: 20px 20px 20px 0;
+    font-weight: bold;
+    font-size: 17px;
+    width: 600px;
+    text-align: center;
+}
+.download_store{
+    padding-left: 30px;
+}
+.download_store img{
+  width: 140px;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+
+
+
+                /* Downicnos */
+.icons{
+    margin: 1px;
+}
+
+.icons img{
+    padding: 2px;
+    width: 30px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}

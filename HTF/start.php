@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="start.css">
+    <title>Saaman Dekho</title>
+</head>
+
+<body>
+
+            <!-- navbar -->
+            <div class="header">
+                <div class="navbar">
+
+
+
+            <!-- Logo (Name) -->
+            <img src="Saaman.png" height="50px" width="500px">
+
+
+            <!-- SearchBar -->
+            <div class="search_box">
+                <input type="text" class="searchclass" id="searchid" placeholder="Search....">
+                <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+            </div>
+
+
+
+
+            <!-- Notifications -->
+            <div class="messeage">
+                
+                <button onclick="alert('Log in/Sign up to see notifications')"><img src="notification-removebg-preview.png"></button>
+            </div>
+
+
+
+
+            <!-- Account Details -->
+            <div class="logo">
+                <!-- <div class="dp" id="dp_id">
+                    <img src="Saaman__1_-removebg-preview.png" width="200px" height="50px" >
+                </div> -->
+                <button onclick="window.location.href = 'login.php';" class="b1"><span class="s1">Log in/Sign up</span></button>
+           
+            </div>
+
+
+
+
+            <!-- Selling Option -->
+            <div class="selling_page">
+                <button onclick="alert('Log in/Sign up to sell !!')"> <i class="fa-solid fa-plus"></i>
+                    <p>SELL</p>
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+        <!-- product -->
+
+    <div class="product">
+        <div class="First_row">
+            <div class="box">
+                <a href="mis.html">
+                    <img src="mi.webp">
+                    <h2>₹3,500</h2>
+                    <p>Mi TV Stick</p>
+                    <div class="address">
+                        <p>Bandra East, Mumbai</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+            <a href="mis.html">
+                <img src="xbox.jpeg">
+                <h2> ₹4,800 </h2>
+                <p> xbox one s</p>
+                <div class="address">
+                    <p>CHEMBUR, MUMBAI</p>
+                    <p> JUL 27</p>
+                </div>
+            </a>
+            </div>
+            <div class="box">
+            <a href="mis.html">
+                <img src="refrigerator.webp">
+                <h2> ₹7,000</h2>
+                <p> Refrigerator</p>
+                <div class="address">
+                    <p>DHARAVI, MUMBAI</p>
+                    <p> Today </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="mistubishi.webp">
+                <h2> ₹8,00,000 </h2>
+                <p> Mistubishi Pajero (2012) </p>
+                <div class="address">
+                    <p>VERSOVA, MUMBAI</p>
+                    <p> Today </p>
+                </div><a>
+            </div>
+        </div>
+
+
+
+        <div class="First_row">
+            <div class="box"><a href="mis.html">
+                <img src="jeans.jpg">
+                <h2> ₹800 </h2>
+                <p> Black Jeans for men</p>
+                <div class="address">
+                    <p>BORIVALI WEST, MUMBAI</p>
+                    <p> DEC 24 </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="carrom.jpg">
+                <h2> ₹3,000 </h2>
+                <p> Carrom board</p>
+                <div class="address">
+                    <p>IC COLONY, MUMBAI</p>
+                    <p> JAN 29 </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="buds.jpg">
+                <h2> ₹3,800 </h2>
+                <p> CrossBeat Torq Buds</p>
+                <div class="address">
+                    <p>DHARAVI, MUMBAI</p>
+                    <p> Today </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="nikon.jpeg">
+                <h2> ₹39,000 </h2>
+                <p> Nikon D7000 DSLR camera </p>
+                <div class="address">
+                    <p>ANDHERI WEST, MUMBAI</p>
+                    <p> FEB 02 </p>
+                </div></a>
+            </div>
+        </div>
+
+        <div class="First_row">
+            <div class="box"><a href="mis.html">
+                <img src="jacket.jpg">
+                <h2> ₹400 </h2>
+                <p> Black jacket</p>
+                <div class="address">
+                    <p>KANDIVALI WEST, MUMBAI</p>
+                    <p> FEB 11 </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="lg.jpeg">
+                <h2> ₹3,400 </h2>
+                <p> LG Washing machine </p>
+                <div class="address">
+                    <p>SANTACRUZ EAST, MUMBAI</p>
+                    <p> Today </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="shoe.jpeg">
+                <h2> ₹700 </h2>
+                <p> Running Shoe (athletes) </p>
+                <div class="address">
+                    <p>BANDRA EAST, MUMBAI</p>
+                    <p> FEB 25 </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="sofa.jpg">
+                <h2> ₹35,000 </h2>
+                <p> Antique premium teak wood Sofa set </p>
+                <div class="address">
+                    <p>Bandra East, Mumbai</p>
+                    <p> Today </p>
+                </div></a>
+            </div>
+        </div>
+
+
+
+        <div class="First_row">
+            <div class="box"><a href="mis.html">
+                <img src="hyundai.jpg">
+                <h2> ₹3,35,000 </h2>
+                <p> Hyundai I20 (2010)</p>
+                <div class="address">
+                    <p>KHAR EAST, MUMBAI</p>
+                    <p> JAN 14 </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="dining.jpg">
+                <h2> ₹6,000 </h2>
+                <p> dining table</p>
+                <div class="address">
+                    <p>DADAR WEST, MUMBAI</p>
+                    <p> JUN 10</p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="watch.jpeg">
+                <h2> ₹1,200 </h2>
+                <p> Mens fastrack watch </p>
+                <div class="address">
+                    <p>KURLA EAST, MUMBAI</p>
+                    <p> JAN 7 </p>
+                </div></a>
+            </div>
+            <div class="box"><a href="mis.html">
+                <img src="dumbell.jpg">
+                <h2> ₹2,100 </h2>
+                <p> Pure Metal Dumbbells</p>
+                <div class="address">
+                    <p>Bandra East, Mumbai</p>
+                    <p> Today </p>
+                </div></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+            <!-- download -->
+    <div class="download_app">
+        <div class="download">
+            <div class="download_store">
+                <p> GET YOUR APP TODAY </p>
+                <img src="apple.png" alt="">
+                <img src="googleplay.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="follow">
+        <p>Please follow us at : </p>
+    </div>
+
+    <div class="icons">
+        <img src="gmail.png">
+        <img src="fb.png">
+        <img src="twitter.png">
+        <img src="insta.png">
+    </div>
+
+   
+</body>
+
+</html>
